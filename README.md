@@ -1,6 +1,7 @@
 # Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality
+This file describe the components of the project and how to access and install them.
 ## Assets Used
-The project is structured with assets stored under the MariaWork folder. 
+The project is structured with assets stored under the Assets folder. 
 The following assets and components are utilized:
 ### Scenes:
 - OfficeEnvironmentAudioAidsMore
@@ -33,7 +34,7 @@ Follow these steps to successfully run the Unity project:
 - Open the Unity Hub and add the project by navigating to its folder.
 ### Load the Project:
 - Once the project is added to Unity Hub, open it in the Unity Editor.
-- Navigate to the MariaWork folder in the Project window to locate the primary scenes and assets.
+- Navigate to the Assets folder in the Project window to locate the primary scenes and assets.
 ### Play the Scene:
 - Open the OfficeEnvironmentAudioAidsMore scene (or any other scene you wish to run).
 - Click the "Play" button in the Unity Editor to start the simulation.
@@ -45,6 +46,6 @@ Follow these steps to successfully run the Unity project:
 - Use the Console window in Unity to monitor logs and errors.
 - Ensure that all scripts are correctly attached to GameObjects in the scene.
 ## Additional Notes
-- Ensure all necessary assets are loaded in the MariaWork folder to avoid missing references.
+- Ensure all necessary assets are loaded in the Assets folder to avoid missing references.
 - For VR-specific features, make sure the XR Rig is properly configured and connected to compatible hardware.
 - Audio aids and environmental settings can be adjusted through the Inspector window.
