@@ -1,11 +1,23 @@
 # Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality
-This file describe the components of the project and how to access and install them.
+This repository contains Unity VR project and the associated information for the research on 'Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality'. The Unity project includes an indoor office environment with three types of intervention cues to encourage energy conservation actions within the VR environment.
+
+### Layout of the Office Space
+The office space includes 3 rooms, a storeroom, a central hall and a lift for entry/exit to the office space.
+![](https://github.com/user-attachments/assets/4c618dd7-0655-4c73-a4ac-b2f7c7d8161b)
+
+# Unity Project
+This project is developed in Unity 2020.3.3f1 with the following Assets and components: 
 ## Assets Used
 The project is structured with assets stored under the Assets folder. 
-The following assets and components are utilized:
 ### Scenes:
-- OfficeEnvironmentAudioAidsMore
-- Other related scenes such as OfficeEnvironmentVisualAidsLessDense, OfficeEnvironmentNPCIntervention, etc., are also listed in the hierarchy.
+The project includes a separate scene for each type of intervention cues. These include 
+- `OfficeEnvironmentAudioAidsMore`
+- `OfficeEnvironmentVisualAidsLessDense`
+- `OfficeEnvironmentNPCIntervention`, etc.
+- 
+All the scenes are listed in the project hierarchy.
+
+Scene name includes information about the intervention cues e.g. `OfficeEnvironmentVisualAidsLessDense` indicates that this scene has visual posters as intervention cues and their density across the environment is low, `OfficeEnvironmentAudioAidsMore` indicates that this scene utilizes periodic audio annoucements as intervention cues with high frequency of repetition. The scenes are:
 ### Scripts:
 - Announcement
 - BooksHolder
@@ -36,7 +48,7 @@ Follow these steps to successfully run the Unity project:
 - Once the project is added to Unity Hub, open it in the Unity Editor.
 - Navigate to the Assets folder in the Project window to locate the primary scenes and assets.
 ### Play the Scene:
-- Open the OfficeEnvironmentAudioAidsMore scene (or any other scene you wish to run).
+- Open the `OfficeEnvironmentAudioAidsMore` scene (or any other scene you wish to run).
 - Click the "Play" button in the Unity Editor to start the simulation.
 ### Interactions:
 - Use the XR Rig for navigation if VR features are enabled.
@@ -46,6 +58,7 @@ Follow these steps to successfully run the Unity project:
 - Use the Console window in Unity to monitor logs and errors.
 - Ensure that all scripts are correctly attached to GameObjects in the scene.
 ## Additional Notes
-- Ensure all necessary assets are loaded in the Assets folder to avoid missing references.
-- For VR-specific features, make sure the XR Rig is properly configured and connected to compatible hardware.
-- Audio aids and environmental settings can be adjusted through the Inspector window.
+> [!IMPORTANT]
+> - Ensure all necessary assets are loaded in the Assets folder to avoid missing references.
+> - For VR-specific features, make sure the XR Rig is properly configured and connected to compatible hardware.
+> - Audio aids and environmental settings can be adjusted through the Inspector window.
