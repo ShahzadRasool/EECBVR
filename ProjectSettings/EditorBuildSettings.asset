@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MariaWork/Scenes/OfficeEnvironmentAudioAidsLess.unity
+    guid: cd0a9db53fdfc6440b2fedcb4fd87543
+  - enabled: 1
+    path: Assets/MariaWork/Scenes/OfficeEnvironmentNPCIntevention.unity
+    guid: c8d103c2145f37041a5ebb953331830c
+  - enabled: 1
+    path: Assets/MariaWork/Scenes/OfficeEnvironmentVisualAidLessDense.unity
+    guid: af281ebf19ed7f84db0cd1d3d251d5c6
+  - enabled: 1
+    path: Assets/MariaWork/Scenes/OfficeEnvironmentAudioAidsMore.unity
+    guid: 519122a48c537d542bd5dd0c33fb429f
+  - enabled: 1
+    path: Assets/MariaWork/Scenes/OfficeEnvironmentVisualAidsFullDense.unity
+    guid: 8f4ffd6d50134fa46abb9c2e58bb79b4
+  - enabled: 1
+    path: Assets/MariaWork/Scenes/CausalScene.unity
+    guid: 7c604ca5cc3be2c458784ccb169deac2
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fb7a512f4dd10ca4381a610fd217bd6c,
+      type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 0ddff9ba7bf11b54cbd5b5dce9d3aae7,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 738db5b98c0f4b54b93c00a563a968f1,
+      type: 2}
