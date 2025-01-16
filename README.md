@@ -8,7 +8,7 @@ The office space includes 3 rooms, a storeroom, a central hall and a lift for en
 # Unity Project
 This project is developed in Unity 2020.3.3f1 with the following Assets and components: 
 ## Assets Used
-The project is structured with assets stored under the Assets folder. 
+The project is structured with assets stored under the `Assets > EnvProject` folder. 
 ### Scenes:
 The project includes a separate scene for each type of intervention cues. These include 
 - `OfficeEnvironmentAudioAidsMore`
@@ -46,7 +46,7 @@ Follow these steps to successfully run the Unity project:
 - Open the Unity Hub and add the project by navigating to its folder.
 ### Load the Project:
 - Once the project is added to Unity Hub, open it in the Unity Editor.
-- Navigate to the Assets folder in the Project window to locate the primary scenes and assets.
+- Navigate to the `Assets > EnvProject` folder in the Project window to locate the primary scenes and assets.
 ### Play the Scene:
 - Open the `OfficeEnvironmentAudioAidsMore` scene (or any other scene you wish to run).
 - Click the "Play" button in the Unity Editor to start the simulation.
@@ -59,6 +59,6 @@ Follow these steps to successfully run the Unity project:
 - Ensure that all scripts are correctly attached to GameObjects in the scene.
 ## Additional Notes
 > [!IMPORTANT]
-> - Ensure all necessary assets are loaded in the Assets folder to avoid missing references.
+> - Ensure all necessary assets are loaded in the `Assets > EnvProject` folder to avoid missing references.
 > - For VR-specific features, make sure the XR Rig is properly configured and connected to compatible hardware.
 > - Audio aids and environmental settings can be adjusted through the Inspector window.
