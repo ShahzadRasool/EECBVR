@@ -12,7 +12,7 @@ The following video shows the office environment and how it looks in VR. In this
 https://github.com/user-attachments/assets/daa8ab8b-233a-459e-a9a5-a4d1f88c4c30
 
 ### Data Files
-We conducted a between-groups user study involving a total of 60 voluntary participants, consisting of 34 females and 26 males. The users were divided into three groups - audio announcements, visual posters and NPC intervention. The Data Files folder consist of three excel sheet with user data and their PEB scores. We administered a PEB questionnaire to each user and calculated scores from it.
+A between-groups user study involving a total of 60 voluntary participants was conducted, consisting of 34 females and 26 males. The users were divided into three groups - audio announcements, visual posters and NPC intervention. Two separate questionnaires were administered (before and after VR exposure) each having a different set of questions in each of the cognitive, connative and affective domains. The `Data Files` folder contains the three excel sheets with user data in the form of average scores for each domain in both pre and post exposure questionnaire and the corresponding PEB scores.
 
 # Unity Project
 This project is developed in Unity 2020.3.3f1 with the following Assets and components: 
@@ -23,18 +23,19 @@ The project includes a separate scene for each type of intervention cues. These 
 - `OfficeEnvironmentAudioAidsMore`
 - `OfficeEnvironmentVisualAidsLessDense`
 - `OfficeEnvironmentNPCIntervention`, etc.
+
 All the scenes are listed in the project hierarchy.
 
 Scene name includes information about the intervention cues e.g. `OfficeEnvironmentVisualAidsLessDense` indicates that this scene has visual posters as intervention cues and their density across the environment is low, `OfficeEnvironmentAudioAidsMore` indicates that this scene utilizes periodic audio annoucements as intervention cues with high frequency of repetition. The scenes are:
 ### Scripts:
-Custom scripts have been created for `Announcements` (control the frequencies of Announcements), `NPCIntervention` (control the NPC intervention between intervals) and some additional scripts relevant to scene management and interaction.
+Custom scripts have been created for `Announcements` (to control the frequencies of audio announcements), `NPCIntervention` (implements the NPC intervention behavior if a user fails to turn the lights off upon exit from a room) and additional scripts relevant to scene management and interaction.
 ### Audios:
+- Background sound effects stored in the `Assets > EnvProject > Audios` folder.
 - Voice clips such as:
   - "If you are the last one, turn off the lights."
   - "Please turn off the lights when not in use."
-- Background sound effects stored in the Audios folder.
 ### Models and Posters:
-- Custom objects and posters for environmental design, stored under energy posters and similar folders.
+- Custom objects and posters for environmental design, stored under `Assets > EnvProject > energy posters` and similar folders.
 ## Instructions to Run the Project
 Follow these steps to successfully run the Unity project:
 ### Setup Unity:
@@ -48,8 +49,8 @@ Follow these steps to successfully run the Unity project:
 - Click the "Play" button in the Unity Editor to start the simulation.
 ### Interactions:
 - Use the XR Rig for navigation if VR features are enabled.
-- Test the triggers such as Room1Trigger, Room2Trigger, and Room3Trigger to ensure proper functionality.
-- Observe the interactions involving pickable objects, such as PickableBooks and BookPlacement.
+- Test the triggers such as `Room1Trigger`, `Room2Trigger,` and `Room3Trigger` to ensure proper functionality.
+- Observe the interactions involving pickable objects, such as `PickableBooks` and `BookPlacement`.
 ### Debugging:
 - Use the Console window in Unity to monitor logs and errors.
 - Ensure that all scripts are correctly attached to GameObjects in the scene.
