@@ -2,12 +2,17 @@
 This repository contains Unity VR project and the associated information for the research on 'Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality'. The Unity project includes an indoor office environment with three types of intervention cues to encourage energy conservation actions within the VR environment.
 
 ### Layout of the Office Space
-The office space includes 3 rooms, a storeroom, a central hall and a lift for entry/exit to the office space.
+In this study, we investigated the efficacy of three intervention methods i.e. audio announcements, visual posters, and social cues from Non-Player Characters (NPCs)—in influencing energy conservation behaviors within a VR simulation of an indoor office environment. The office space includes 3 rooms, a storeroom, a central hall and a lift for entry/exit to the office space.
 ![](https://github.com/user-attachments/assets/4c618dd7-0655-4c73-a4ac-b2f7c7d8161b)
 
 ### Inside the VR
 The following video shows the office environment and how it looks in VR. In this sample video, the different types of energy conservation posters are shown. It also shows how the user accomplishes a task within the office environment:
-[![](https://raw.githubusercontent.com/aamna21/Enhancing-Energy-Conservation-Behaviors-Through-Audiovisual-and-Social-Cues-in-Virtual-Reality/tree/main/MediaFiles/thumbnail.JPG)](https://raw.githubusercontent.com/aamna21/Enhancing-Energy-Conservation-Behaviors-Through-Audiovisual-and-Social-Cues-in-Virtual-Reality/tree/main/MediaFiles/OfficeEnvironmentwithtask.mp4)
+
+https://github.com/user-attachments/assets/daa8ab8b-233a-459e-a9a5-a4d1f88c4c30
+
+### Data Files
+We conducted a between-groups user study involving a total of 60 voluntary participants, consisting of 34 females and 26 males. The users were divided into three groups - audio announcements, visual posters and NPC intervention. The Data Files folder consist of three excel sheet with user data and their PEB scores. We administered a PEB questionnaire to each user and calculated scores from it.
+
 # Unity Project
 This project is developed in Unity 2020.3.3f1 with the following Assets and components: 
 ## Assets Used
