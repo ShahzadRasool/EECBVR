@@ -7,7 +7,7 @@ The office space includes 3 rooms, a storeroom, a central hall and a lift for en
 
 ### Inside the VR
 The following video shows the office environment and how it looks in VR. In this sample video, the different types of energy conservation posters are shown. It also shows how the user accomplishes a task within the office environment:
-![]([https://github.com/user-attachments/assets/4c618dd7-0655-4c73-a4ac-b2f7c7d8161b](https://github.com/aamna21/Enhancing-Energy-Conservation-Behaviors-Through-Audiovisual-and-Social-Cues-in-Virtual-Reality/blob/main/Media%20Files/Office%20Environment%20with%20task.mp4))
+[![](https://github.com/aamna21/Enhancing-Energy-Conservation-Behaviors-Through-Audiovisual-and-Social-Cues-in-Virtual-Reality/blob/main/Media%20Files/Office%20Environment%20with%20task.mp4)]
 # Unity Project
 This project is developed in Unity 2020.3.3f1 with the following Assets and components: 
 ## Assets Used
