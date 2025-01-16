@@ -19,7 +19,7 @@ All the scenes are listed in the project hierarchy.
 
 Scene name includes information about the intervention cues e.g. `OfficeEnvironmentVisualAidsLessDense` indicates that this scene has visual posters as intervention cues and their density across the environment is low, `OfficeEnvironmentAudioAidsMore` indicates that this scene utilizes periodic audio annoucements as intervention cues with high frequency of repetition. The scenes are:
 ### Scripts:
-Custom scripts have been created for `Announcements' (control the frequencies of Announcements), `NPCIntervention` (control the NPC intervention between intervals) and some additional scripts relevant to scene management and interaction.
+Custom scripts have been created for `Announcements` (control the frequencies of Announcements), `NPCIntervention` (control the NPC intervention between intervals) and some additional scripts relevant to scene management and interaction.
 ### Audios:
 - Voice clips such as:
   - "If you are the last one, turn off the lights."
