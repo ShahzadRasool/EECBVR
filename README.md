@@ -48,6 +48,14 @@ Manages interactions when the player reaches specific destinations, triggering N
 #### NPCIntervention.cs
 Oversees NPC behaviors such as following the player, initiating conversations, or reacting to proximity. The script adds dynamic interactions through animations and audio, enhancing the sense of immersion and engagement.
 
+### Asset Integration and Customization
+The VR environment is built using a selection of assets from the Unity Asset Store, which were customized to deliver an interactive and cohesive experience optimized for virtual reality. These assets were tailored to meet the specific needs of the project and enhance user immersion.
+#### Simple Office Interiors - Cartoon Assets (S. Studios, 2023)
+- This asset provided the core elements for designing vibrant, cartoon-style office interiors.
+- Customizations included adjusting object placements, modifying interaction properties, and fine-tuning lighting to ensure a VR-optimized experience.
+- The asset can be accessed through URL: [3d package Unity](https://assetstore.unity.com/packages/3d/)
+
+
 ### Audios:
 - Background sound effects stored in the `Assets > EnvProject > Audios` folder.
 - Voice clips such as:
