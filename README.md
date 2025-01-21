@@ -28,7 +28,26 @@ All the scenes are listed in the project hierarchy.
 
 Scene name includes information about the intervention cues e.g. `OfficeEnvironmentVisualAidsLessDense` indicates that this scene has visual posters as intervention cues and their density across the environment is low, `OfficeEnvironmentAudioAidsMore` indicates that this scene utilizes periodic audio annoucements as intervention cues with high frequency of repetition. The scenes are:
 ### Scripts:
-Custom scripts have been created for `Announcements` (to control the frequencies of audio announcements), `NPCIntervention` (implements the NPC intervention behavior if a user fails to turn the lights off upon exit from a room) and additional scripts relevant to scene management and interaction.
+The Unity C# scripts designed for an immersive Virtual Reality (VR) experience. Each script plays a crucial role in creating an interactive and engaging VR environment:
+#### Announcement.cs
+Handles audio announcements in the VR environment, playing them in a loop with a specified delay and duration. The script ensures announcements are periodically repeated to guide or inform the player.
+#### BookHolderSceneCasual.cs
+Manages the interaction of placing virtual books into designated holders, validating correct placements, and providing visual cues. When all books are correctly placed, it triggers environmental changes, such as turning off lights and highlighting the next objective.
+#### BooksHolder.cs
+Facilitates book placement mechanics with feedback for both correct and incorrect placements in the VR scene. On successful completion of the task, the script initiates transitions to new gameplay states, such as lighting changes or task completion notifications.
+#### FinalCharacterController.cs
+Guides the player to the exit in a VR setting by monitoring progress and triggering directional cues, such as arrow indicators or audio guidance. It activates the final sequence when all gameplay conditions are met, creating a smooth progression experience.
+#### FinalTrigger.cs
+Displays a celebratory "Congratulations" message when the player interacts with the final trigger zone. This script enhances task completion feedback, ensuring players feel rewarded in the VR environment.
+#### HallTrigger.cs
+Detects when the player enters or exits specific areas, such as a hall, and updates the behavior of non-player characters (NPCs) accordingly. This adds context-aware interactions and dynamic NPC responses in the VR scene.
+#### LightsController.cs
+Controls room lighting in the VR environment, allowing for toggling lights on/off and dynamically changing bulb colors. The script also interacts with other systems, ensuring lighting contributes to guiding and immersing the player.
+#### MyDestination.cs
+Manages interactions when the player reaches specific destinations, triggering NPC animations, dialogue, and movement. It creates a sense of realism in the VR experience by enabling NPC reactions based on player actions.
+#### NPCIntervention.cs
+Oversees NPC behaviors such as following the player, initiating conversations, or reacting to proximity. The script adds dynamic interactions through animations and audio, enhancing the sense of immersion and engagement.
+
 ### Audios:
 - Background sound effects stored in the `Assets > EnvProject > Audios` folder.
 - Voice clips such as:
