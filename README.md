@@ -28,7 +28,7 @@ All the scenes are listed in the project hierarchy.
 
 Scene name includes information about the intervention cues e.g. `OfficeEnvironmentVisualAidsLessDense` indicates that this scene has visual posters as intervention cues and their density across the environment is low, `OfficeEnvironmentAudioAidsMore` indicates that this scene utilizes periodic audio annoucements as intervention cues with high frequency of repetition. The scenes are:
 ### Scripts:
-The Unity C# scripts designed for an immersive Virtual Reality (VR) experience. Each script plays a crucial role in creating an interactive and engaging VR environment:
+The Unity C# scripts designed for an immersive Virtual Reality (VR) experience. All the scripts mentioned below are present here: [scripts](https://github.com/ShahzadRasool/EECBVR/tree/main/Assets/EnvProject/Scripts). Each script plays a crucial role in creating an interactive and engaging VR environment:
 #### Announcement.cs
 Handles audio announcements in the VR environment, playing them in a loop with a specified delay and duration. The script ensures announcements are periodically repeated to guide or inform the player.
 #### BookHolderSceneCasual.cs
