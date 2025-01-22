@@ -31,23 +31,87 @@ Scene name includes information about the intervention cues e.g. `OfficeEnvironm
 The Unity C# scripts designed for an immersive Virtual Reality (VR) experience. All the scripts mentioned below are present here: [scripts](https://github.com/ShahzadRasool/EECBVR/tree/main/Assets/EnvProject/Scripts). Each script plays a crucial role in creating an interactive and engaging VR environment:
 #### Announcement.cs
 Handles audio announcements in the VR environment, playing them in a loop with a specified delay and duration. The script ensures announcements are periodically repeated to guide or inform the player.
+The `Announcement` variable is available in the inspector window where an `AudioSource` file can be chosen. 
+```C#
+  public AudioSource Annoucnemnt;
+```
+The following section of code ensures periodic replay of the audio file after `delay` seconds which is also accesible in the inspector window.
+```C#
+  Annoucnemnt.Play();
+  yield return new WaitForSeconds(delay+ClipTime);
+  StartCoroutine(wait());
+```
 #### BookHolderSceneCasual.cs
 Manages the interaction of placing virtual books into designated holders, validating correct placements, and providing visual cues. When all books are correctly placed, it triggers environmental changes, such as turning off lights and highlighting the next objective.
+An array is initialized to keep track of how many files have been picked and placed at corresponding designated areas.
+```C#
+  public GameObject[] PickableBooks;
+```
+The `OnTriggerEnter` is used to check collision of the hand controllers with each book while tags are used to identify if the grabbed book is placed at the designated point.
+```C#
+  if (this.gameObject.name == "Dest1"){
+    Highlighter1.SetActive(false);
+    if (other.gameObject.tag == "book1"){
+        BookHolder1[0].SetActive(true);
+        PickableBooks[0].SetActive(false);
+    }
+}
+```
+
 #### BooksHolder.cs
-Facilitates book placement mechanics with feedback for both correct and incorrect placements in the VR scene. On successful completion of the task, the script initiates transitions to new gameplay states, such as lighting changes or task completion notifications.
+Facilitates book placement mechanics with feedback for both correct and incorrect placements in the VR scene. On successful completion of the task, the script initiates transitions to new gameplay states, such as lighting changes or task completion notifications. The following courourtine is executed once all books are placed correctly to ensure all arrows/indicators in the scene are deactivated at completion.  
+```C#
+  if(SceneManager.GetActiveScene().buildIndex == 0){
+      turnlightsoffSound.Play();
+  }
+  TurnLightsOffText.SetActive(true);
+  ArrowsLights.SetActive(true);
+  yield return new WaitForSeconds(10f);
+  TurnLightsOffText.SetActive(false);
+```
 #### FinalCharacterController.cs
 Guides the player to the exit in a VR setting by monitoring progress and triggering directional cues, such as arrow indicators or audio guidance. It activates the final sequence when all gameplay conditions are met, creating a smooth progression experience.
+The following code section checks for if all arrows at file and destination are deactivated after successful completion of task, this activates the final trigger that guides the user to the exit.  
+```C#
+  if (!ArrowsCheck[0].activeSelf && !ArrowsCheck[1].activeSelf && !ArrowsCheck[2].activeSelf && !ArrowsCheck[3].activeSelf && !ArrowsCheck[4].activeSelf && !ArrowsCheck[5].activeSelf && !ArrowsCheck[6].activeSelf){
+      StartCoroutine(wait());
+      FinalTrigger.SetActive(true);
+  }
+```
 #### FinalTrigger.cs
 Displays a celebratory "Congratulations" message when the player interacts with the final trigger zone. This script enhances task completion feedback, ensuring players feel rewarded in the VR environment.
+The `CongratulationsText` gameObject is displayed for 3 seconds.
 #### HallTrigger.cs
 Detects when the player enters or exits specific areas, such as a hall, and updates the behavior of non-player characters (NPCs) accordingly. This adds context-aware interactions and dynamic NPC responses in the VR scene.
+When the `Player` tag gameObject enters the hall. 
+```C#
+  private void OnTriggerEnter(Collider other){
+      if (other.tag == "Player"){
+          NPCIntervention.Instance.isInHall = true;
+      }
+  }
+```
+Similarly, an `OnTriggerExit()` function is used to turn the `inInHall` to false.
 #### LightsController.cs
-Controls room lighting in the VR environment, allowing for toggling lights on/off and dynamically changing bulb colors. The script also interacts with other systems, ensuring lighting contributes to guiding and immersing the player.
+Controls room lighting in the VR environment, allowing for toggling lights on/off and dynamically changing bulb colors. The script also interacts with other systems, ensuring lighting contributes to guiding and immersing the player. A total of 7 lights are placed (one in each room/washroom area/hall/store room).
 #### MyDestination.cs
 Manages interactions when the player reaches specific destinations, triggering NPC animations, dialogue, and movement. It creates a sense of realism in the VR experience by enabling NPC reactions based on player actions.
 #### NPCIntervention.cs
 Oversees NPC behaviors such as following the player, initiating conversations, or reacting to proximity. The script adds dynamic interactions through animations and audio, enhancing the sense of immersion and engagement.
-
+THe following part of the script finds the direction of the NPC and its distance from the user and ensures that the NPC walks towards the user and an audio file is played when within range of the user.
+```C#
+  if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out shot)){
+    TargetDistance = shot.distance;
+    if (TargetDistance >= AllowedDistance){
+        FollowSpeed = 0.1f;
+        NPCAnimator.SetBool("Running", true);
+        NPCAnimator.SetBool("talking", false);
+        transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, FollowSpeed);
+        NPCInterventionAudio.Play();
+        StartCoroutine(CheckAudio());
+    }
+  }         
+```
 ### Asset Integration and Customization
 The VR environment is built using a selection of assets from the Unity Asset Store, which were customized to deliver an interactive and cohesive experience optimized for virtual reality. These assets were tailored to meet the specific needs of the project and enhance user immersion.
 #### Simple Office Interiors - Cartoon Assets (S. Studios, 2023)
