@@ -53,17 +53,17 @@ The VR environment is built using a selection of assets from the Unity Asset Sto
 #### Simple Office Interiors - Cartoon Assets (S. Studios, 2023)
 - This asset provided the core elements for designing vibrant, cartoon-style office interiors.
 - Customizations included adjusting object placements, modifying interaction properties, and fine-tuning lighting to ensure a VR-optimized experience.
-- The asset can be accessed through [3D package Unity](https://assetstore.unity.com/packages/3d/)
+- The asset can be accessed through [Simple Office Interiror](https://assetstore.unity.com/packages/3d/props/interior/simple-office-interiors-cartoon-assets-38028)
 
 #### VR Interaction Framework (B. N. Games, 2023)
 - This framework formed the backbone of the VR interaction system, enabling core functionalities like object pickup, teleportation, and gesture recognition.
 - Customization involved refining gameplay mechanics, enhancing object physics, and adjusting interactions to align with research-specific scenarios.
-- The asset can be accessed through [Unity Systems](https://assetstore.unity.com/packages/templates/systems/)
+- The asset can be accessed through [Interaction Framework](https://assetstore.unity.com/packages/templates/systems/vr-interaction-framework-161066)
 
 #### Population System PRO (AGLOBEX, 2018)
 - This asset was used to populate the VR environment with dynamic NPCs, each exhibiting realistic behaviors and animations.
 - Custom modifications included tailoring NPC dialogue, movement, and responses based on proximity to the player and interactions, further enhancing the immersion.
-- The asset can be accessed through URL: [Unity Characters](https://assetstore.unity.com/packages/3d/characters/)
+- The asset can be accessed through URL: [Population System](https://assetstore.unity.com/packages/3d/characters/population-system-pro-59820)
 
 Additionally, custom-designed posters, audio elements, and NPC interventions were strategically placed throughout the environment to augment the interactive experience. These customizations, combined with tailored scripts, collectively form the foundation of an immersive VR environment that aligns with the goals of the project.
 
