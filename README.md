@@ -63,7 +63,7 @@ The VR environment is built using a selection of assets from the Unity Asset Sto
 #### Population System PRO (AGLOBEX, 2018)
 - This asset was used to populate the VR environment with dynamic NPCs, each exhibiting realistic behaviors and animations.
 - Custom modifications included tailoring NPC dialogue, movement, and responses based on proximity to the player and interactions, further enhancing the immersion.
-- The asset can be accessed through URL: [Population System](https://assetstore.unity.com/packages/3d/characters/population-system-pro-59820)
+- The asset can be accessed through [Population System](https://assetstore.unity.com/packages/3d/characters/population-system-pro-59820)
 
 Additionally, custom-designed posters, audio elements, and NPC interventions were strategically placed throughout the environment to augment the interactive experience. These customizations, combined with tailored scripts, collectively form the foundation of an immersive VR environment that aligns with the goals of the project.
 
