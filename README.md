@@ -161,3 +161,89 @@ Follow these steps to successfully run the Unity project:
 > - Ensure all necessary assets are loaded in the `Assets > EnvProject` folder to avoid missing references.
 > - For VR-specific features, make sure the XR Rig is properly configured and connected to compatible hardware.
 > - Audio aids and environmental settings can be adjusted through the Inspector window.
+
+# Energy Conservation Behaviors Data Analysis
+
+A data analysis project focused on understanding and promoting energy conservation behaviors.
+
+## Description
+
+This project analyzes patterns in energy consumption and conservation behaviors to identify effective strategies for promoting sustainable energy use. The analysis aims to provide insights into how individuals and communities can adopt more energy-efficient practices.
+
+## Features
+
+- Data collection and preprocessing of energy usage data
+- Exploratory data analysis of consumption patterns
+- Statistical modeling to identify key behavioral factors
+- Interactive visualizations of energy conservation trends
+- Recommendations for sustainable practices
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/mehakrafiq/EnergyConservationBehaviors.git>
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd EnergyConservationBehaviors
+   ```
+
+3. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+
+4. Activate the virtual environment:
+
+   On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+
+   On macOS/Linux:
+   ```bash
+   source venv/bin/activate
+   ```
+
+5. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+The project contains three main tasks that can be executed in the following order:
+
+1. Data Normalization (Task 1):
+   - Open `normalization.ipynb` in Jupyter Notebook
+   - Run all cells to normalize the energy consumption data
+
+2. Comparative Analysis (Task 2):
+   - Open `comparative_analysis.ipynb` in Jupyter Notebook 
+   - Run all cells to analyze patterns and trends
+   - There are 2 files comparative_analysis_1a and comparative_analysis_1b need to run both to get the complete analysis
+
+3. Visualization (Task 3):
+   - Open `graphs.ipynb` in Jupyter Notebook
+   - Run all cells to generate visual insights of the analysis
+
+## Data Sources
+
+All data sources are in the `Data` folder
+A report is also made for the statistical analysis in the `Report.docx` file
+All the graphs made for the paper are in the `graphs` folder
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+MIT License
+
+## Contact
+
+- GitHub: [@mehakrafiq](https://github.com/mehakrafiq)
+_ Email: Dr Shahzad Rasool (shahzad.rasool@sines.nust.edu.pk)
