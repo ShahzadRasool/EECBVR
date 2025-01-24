@@ -138,7 +138,7 @@ Additionally, custom-designed posters, audio elements, and NPC interventions wer
   - "Please turn off the lights when not in use."
 ### Models and Posters:
 - Custom objects and posters for environmental design, stored under `Assets > EnvProject > energy posters` and similar folders.
-## Instructions to Run the Project
+## Instructions to Run the Unity Project
 Follow these steps to successfully run the Unity project:
 ### Setup Unity:
 - Ensure Unity 2020.3.3f1 or a compatible version is installed on your system.
@@ -162,11 +162,7 @@ Follow these steps to successfully run the Unity project:
 > - For VR-specific features, make sure the XR Rig is properly configured and connected to compatible hardware.
 > - Audio aids and environmental settings can be adjusted through the Inspector window.
 
-# Energy Conservation Behaviors Data Analysis
-
-A data analysis project focused on understanding and promoting energy conservation behaviors.
-
-## Description
+# Data Analysis
 
 This project analyzes patterns in energy consumption and conservation behaviors to identify effective strategies for promoting sustainable energy use. The analysis aims to provide insights into how individuals and communities can adopt more energy-efficient practices.
 
@@ -235,15 +231,5 @@ All data sources are in the `Data` folder
 A report is also made for the statistical analysis in the `Report.docx` file
 All the graphs made for the paper are in the `graphs` folder
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-MIT License
-
 ## Contact
-
-- GitHub: [@mehakrafiq](https://github.com/mehakrafiq)
 _ Email: Dr Shahzad Rasool (shahzad.rasool@sines.nust.edu.pk)
