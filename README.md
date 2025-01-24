@@ -11,8 +11,8 @@ The following video shows the office environment and how it looks in VR. In this
 
 https://github.com/user-attachments/assets/daa8ab8b-233a-459e-a9a5-a4d1f88c4c30
 
-### Data Files
-A between-groups user study involving a total of 60 voluntary participants was conducted, consisting of 34 females and 26 males. The users were divided into three groups - audio announcements, visual posters and NPC intervention. Two separate questionnaires were administered (before and after VR exposure) each having a different set of questions in each of the cognitive, connative and affective domains. The `Data Files` folder contains the three excel sheets with user data in the form of average scores for each domain in both pre and post exposure questionnaire and the corresponding PEB scores.
+### User Recorded Data
+A between-groups user study involving a total of 60 voluntary participants was conducted, consisting of 34 females and 26 males. The users were divided into three groups - audio announcements, visual posters and NPC intervention. Two separate questionnaires were administered (before and after VR exposure) each having a different set of questions in each of the cognitive, connative and affective domains. The `Data` folder contains the excel sheets with user data in the form of average scores for each domain in both pre and post exposure questionnaire and the corresponding PEB scores.
 
 # Unity Project
 This project is developed in Unity 2020.3.3f1 with the following Assets and components: 
