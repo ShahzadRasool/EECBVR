@@ -232,4 +232,4 @@ A report is also made for the statistical analysis in the `Report.docx` file
 All the graphs made for the paper are in the `graphs` folder
 
 ## Contact
-_ Email: Dr Shahzad Rasool (shahzad.rasool@sines.nust.edu.pk)
+Email: Dr Shahzad Rasool (shahzad.rasool@sines.nust.edu.pk)
