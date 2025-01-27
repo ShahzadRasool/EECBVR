@@ -1,5 +1,5 @@
 # Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality
-This repository contains the implementation of the method described in the paper 'Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality'. The Unity project includes an indoor office environment with three types of intervention cues to encourage energy conservation actions within the VR environment.
+This repository contains the implementation of the method described in the paper 'Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality' submitted to The Visual Computer journal. The Unity project includes an indoor office environment with three types of intervention cues to encourage energy conservation actions within the VR environment.
 
 
 ### Layout of the Office Space
