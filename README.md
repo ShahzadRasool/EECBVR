@@ -1,5 +1,6 @@
 # Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality
-This repository contains Unity VR project and the associated information for the research on 'Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality'. The Unity project includes an indoor office environment with three types of intervention cues to encourage energy conservation actions within the VR environment.
+This repository contains the implementation of the method described in the paper 'Enhancing Energy Conservation Behaviors Through Audiovisual and Social Cues in Virtual Reality'. The Unity project includes an indoor office environment with three types of intervention cues to encourage energy conservation actions within the VR environment.
+
 
 ### Layout of the Office Space
 In this study, we investigated the efficacy of three intervention methods i.e. audio announcements, visual posters, and social cues from Non-Player Characters (NPCs)—in influencing energy conservation behaviors within a VR simulation of an indoor office environment. The office space includes 3 rooms, a storeroom, a central hall and a lift for entry/exit to the office space:
@@ -227,9 +228,9 @@ The project contains three main tasks that can be executed in the following orde
 
 ## Data Sources
 
-All data sources are in the `Data` folder
-A report is also made for the statistical analysis in the `Report.docx` file
-All the graphs made for the paper are in the `graphs` folder
+All data sources are in the `Data` folder.
+A report is also made for the statistical analysis in the `Report.docx` file.
+All the graphs made for the paper are in the `graphs` folder.
 
 ## Contact
 Email: Dr Shahzad Rasool (shahzad.rasool@sines.nust.edu.pk)
